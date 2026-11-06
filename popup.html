@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 18px; width: 285px; font: 14px/1.5 system-ui, sans-serif; background: #151719; color: #f6f7f8; }
+    .brand { display: flex; gap: 10px; align-items: center; margin-bottom: 9px; }
+    .brand img { width: 32px; height: 32px; }
+    h1 { font-size: 16px; margin: 0; }
+    p { color: #aeb5ba; margin: 0 0 16px; }
+    label { display: flex; gap: 10px; align-items: center; cursor: pointer; background: #24292d; border-radius: 9px; padding: 11px; }
+    input { accent-color: #54d66a; width: 18px; height: 18px; }
+    small { display: block; margin-top: 12px; color: #8f9ba2; }
+    footer { border-top: 1px solid #31383b; padding-top: 12px; margin-top: 16px; font-size: 12px; color: #aeb5ba; }
+    a { color: #66e98c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="brand"><img src="icons/icon48.png" alt=""><h1>Kick PokeIdle Cleaner</h1></div>
+  <p>Esconda avisos de resgate PokeIdle, mantendo o restante do chat.</p>
+  <label><input type="checkbox" id="enabled"> Esconder resgates</label>
+  <small>A preferência vale para todos os canais da Kick.</small>
+  <footer>Desenvolvido por <a href="https://github.com/andydev0" target="_blank" rel="noopener noreferrer">@andydev0 no GitHub</a></footer>
+  <script src="popup.js"></script>
+</body>
+</html>
